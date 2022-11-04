@@ -4,7 +4,7 @@ public class VersionInfo {
 	private final static String D2 = "Deep Singh";
 	private final static String D3 = "Deep Singh";
 	private final static String D4 = "Deep Singh";
-	private final static String D5 = "Deep Singh";
+	private final static String D5 = "Kian Rivera";
 	private final static String myGithub = "https://github.com/Team-Leftovers-UWT/360project";
 	private final static String myVersion = "v.0.1.0";
 	
