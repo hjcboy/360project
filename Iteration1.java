@@ -58,7 +58,8 @@ public class Iteration1 extends JFrame {
 
 	        JPanel designerPnl = new JPanel();
 	        designerPnl.setBorder(BorderFactory.createLineBorder(Color.black));
-	        designerPnl.add(new JLabel("Team Leftover Members:", JLabel.CENTER));
+	        designerPnl.add(new JLabel("This app is registered to: " + VersionInfo.getUser(), JLabel.CENTER));
+		designerPnl.add(new JLabel("This app is provided by:", JLabel.CENTER));
 
 	        JPanel designerNamePnl = new JPanel();
 	        designerNamePnl.setBorder(BorderFactory.createLineBorder(Color.black));
