@@ -32,4 +32,5 @@ public class VersionInfo {
 	}
 	public static String getUser() {
 		return userName();
+	}
 }
