@@ -31,6 +31,6 @@ public class VersionInfo {
 		return myVersion;
 	}
 	public static String getUser() {
-		return userName();
+		return userName;
 	}
 }
