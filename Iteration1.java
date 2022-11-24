@@ -38,7 +38,8 @@ public class Iteration1 extends JFrame {
 	        setSize(FRAME_SIZE);
 	        setLocationRelativeTo(null);
 	        //setIconImage(new ImageIcon(getClass().getResource("/Icon/Icon.png")).getImage());
-
+		
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	        JPanel containPanel = new JPanel();
 	        GridLayout gridLayout = new GridLayout(1, 2);
 	        containPanel.setLayout(gridLayout);
