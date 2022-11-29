@@ -38,7 +38,7 @@ public class UserProfile implements Serializable {
         ObjectOutputStream oos = null;
         FileOutputStream fout = null;
         try{
-            fout = new FileOutputStream("C:\\Users\\masga\\Downloads\\FirstSpring\\Iteration\\src\\profile.txt");
+            fout = new FileOutputStream("C:\\profile.txt");
             oos = new ObjectOutputStream(fout);
         }catch (Exception e){
 
