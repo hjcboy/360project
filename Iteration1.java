@@ -50,6 +50,7 @@ public class Iteration1 extends JFrame {
 	        this.add(containPanel);
 
 
+		    
 	    }
 
 	    private JPanel createTeamInfoPanel() {
